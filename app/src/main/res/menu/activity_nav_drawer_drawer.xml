@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_voucher"
+            android:title="Voucher Deals" />
+        <item
+            android:id="@+id/nav_product"
+            android:title="Product Deals" />
+        <item
+            android:id="@+id/nav_fav_deals"
+            android:title="My Favorite Deals" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/menuWallet"
+                android:icon="@drawable/ic_menu_wallet_black"
+                android:title="My Wallet" />
+            <item
+                android:id="@+id/menuVoucher"
+                android:icon="@drawable/ic_menu_card_black"
+                android:title="My Vouchers" />
+            <item
+                android:id="@+id/menuProduct"
+                android:icon="@drawable/ic_menu_box_black"
+                android:title="My Product" />
+            <item
+                android:id="@+id/menuCheckCode"
+                android:icon="@drawable/ic_menu_code_black"
+                android:title="Check Code" />
+        </menu>
+    </item>
+
+</menu>
